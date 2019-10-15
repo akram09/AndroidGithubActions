@@ -14,6 +14,6 @@ jobs:
       with:
         java-version: 1.8
     - name: give permission
-      run: chmod +x gradle
+      run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
