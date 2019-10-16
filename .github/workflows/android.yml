@@ -19,3 +19,5 @@ jobs:
       run: ./gradlew build
     - name: check Project Style
       run: ./gradlew spotlessCheck
+    - name: Generate debug apk
+      run: ./gradlew assembleDebug
